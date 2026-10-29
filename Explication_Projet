@@ -1,1 +1,39 @@
+# Material Response Analysis and ANFIS-Based Thermal Diffusivity Estimation
 
+## Overview
+This project investigates the responses of eight materials subjected to temporal excitations. It combines exploratory data analysis, statistical analysis, feature extraction, and intelligent modeling to estimate material thermal diffusivity.
+
+## Part 1 — Exploratory Data Analysis
+- Analysis of time-dependent material responses.
+- Automatic detection of excitation events.
+- Extraction of response duration, maximum, minimum, and average slope.
+- Statistical analysis of the influence of excitation duration.
+- 3D visualization and comparison of material responses.
+
+## Part 2 — ANFIS Modeling
+- Thermal diffusivity estimation using an Adaptive Neuro-Fuzzy Inference System (ANFIS).
+- Data normalization and feature selection.
+- Model training and validation using different data-splitting strategies.
+- Comparison of two input configurations:
+  - Duration and maximum response.
+  - Duration and average slope.
+- Analysis of estimation errors and generalization limitations.
+
+## Tools
+- MATLAB
+- Excel
+- ANFIS modeling (`genfis`, `anfis`, `evalfis`)
+
+## Key Findings
+- Excitation duration strongly influences response amplitude and average slope.
+- Different materials exhibit distinct response characteristics.
+- The ANFIS model captures the general trends in thermal diffusivity, although estimation accuracy varies depending on the input features and validation strategy.
+
+## Project Structure
+- `Part1_Exploratory_Analysis/` — Statistical analysis and material response characterization.
+- `Part2_ANFIS/` — ANFIS training, validation, and diffusivity estimation.
+- `Reports/` — Project reports and documentation.
+
+## Academic Context
+Master 1 EEA — Université de Perpignan Via Domitia  
+Academic year: 2025–2026
